@@ -2,9 +2,9 @@ import React from 'react'
 
 import Menu from '../components/Menu'
 
-export default () => (
+export default ({ url }) => (
   <div>
     <Menu />
-    Hello it's me!
+    Consultoria
   </div>
 )
