@@ -1,0 +1,15 @@
+{
+  "name": "taller-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Joseph Ramos <jardix22@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "next"
+  },
+  "dependencies": {
+    "next": "^3.0.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
