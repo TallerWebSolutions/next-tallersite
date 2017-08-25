@@ -10,8 +10,10 @@
   "dependencies": {
     "eslint-config-taller": "^1.0.4",
     "next": "^3.0.3",
+    "ramda": "^0.24.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "recompose": "^0.25.0",
     "styled-components": "^2.1.2"
   }
 }
