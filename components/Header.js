@@ -1,61 +1,41 @@
-import React from 'react'
-import Link from 'next/link'
-import styled from 'styled-components'
+import React, { PropTypes } from 'react'
+import { compose } from 'recompose'
 
-const Container = styled.header`
-  position: relative;
-  padding: 3rem 10%;
-  background-color: #29292f;
-  color: white;
-`
+import { withI18n } from '../i18n/i18n.js'
 
-const Menu = styled.ul`
-  margin: 0;
-  padding-left: 1.25em;
-  text-align: right;
-  line-height: 1.85em;
-
-  li {
-    display: inline;
-    padding: 1rem;
-    list-style: none;
-  }
-
-  li + li::before {
-    content: "c";
-    margin-left: -1rem;
-    margin-right: 1rem;
-    font-size: 0.4em;
-    color: #98989E;
-  }
-`
-
-const Header = () => (
-  <Container>
+const Header = ({ i18n }) => (
+  <header id='section-heading'>
     <nav>
       <aside>
-        <h2>Taller</h2>
+        <a href='/'><h2>Taller</h2></a>
       </aside>
       <main>
-        <Menu>
+        <ul>
           <li><a href='http://blog.taller.net.br'>Blog</a></li>
-          <li><a href='/contact'>Contato</a></li>
-          <li><Link href='/consulting'>Consultoria</Link></li>
-        </Menu>
+          <li><a href='#contact'>{ i18n('menu.contact') }</a></li>
+        </ul>
       </main>
     </nav>
 
     <main id='section-hero'>
       <p className='hero'>
-        Somos um time que desenvolve software de qualidade para inovações tecnológicas de alta complexidade.
+        { i18n('header.hero') }
       </p>
-      <p className='sub-hero' />
+      <p className='sub-hero'>
+        { i18n('header.subhero') }
+      </p>
     </main>
 
     <footer>
-      <a className='know-more smooth-scroll' href='#section-clients'>Saiba mais</a>
+      <a className='know-more smooth-scroll' href='#section-clients'>{ i18n('util.knowMore') }</a>
     </footer>
-  </Container>
+  </header>
 )
 
-export default Header
+Header.propTypes = {
+  i18n: PropTypes.func
+}
+
+export default compose(
+  withI18n
+)(Header)
