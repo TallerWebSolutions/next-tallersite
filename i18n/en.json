@@ -1,0 +1,478 @@
+{
+  "site": {
+    "title": "Taller - Digital Business.",
+    "description": "We believe technology increases human capacity."
+  },
+
+  "menu": {
+    "contact": "Contact Us"
+  },
+
+  "header": {
+    "hero": "We are a digital business studio that turns<br><span>ideas into innovative business.</span>",
+    "subhero":""
+  },
+
+  "section": {
+    "who": {
+      "title": "About",
+      "main": [
+        "We believe technology increases human capacity.",
+        "We develop solutions that help companies of all sizes meet their business goals."
+      ],
+      "aside": {
+        "title": "Our culture values",
+        "list": [
+          "People first.",
+          "Best practices oriented decision making.",
+          "Transparent management.",
+          "Continuous value delivery.",
+          "<i>Lean Metrics</i> for hypothesis validation.",
+          "Self-organizing initiatives.",
+          "Reducing waste.",
+          "Sharing our learnings.",
+          "Active participation and organization of events.",
+          "Collaboration in open source communities."
+        ],
+        "call-to-action": "<a href='http://google.com'>Take a look at our culture in practice</a>"
+      },
+      "footer": {
+        "call-to-action": "Get to know our team and more about our history."
+      }
+    },
+
+    "cases": {
+      "title": "Featured cases",
+      "list": {
+        "natura": {
+          "title": "Natura Website",
+          "description": "Content Management System.",
+          "details": [
+            {
+              "title": "Content visual management",
+              "description": "Autonomy for marketing teams.<br />Editing pages <i>In-line</i> and <i>Drag & Drop</i>."
+            }, {
+              "title": "Cost reduction",
+              "description": "Reduction in total cost of operation and removal of proprietary licenses."
+            }, {
+              "title": "Technologies:",
+              "list": [
+                {
+                  "url": "https://www.acquia.com/products-services/acquia-cloud",
+                  "text": "Acquia Cloud"
+                },
+                {
+                  "url": "http://www.drupal.org/",
+                  "text": "Drupal"
+                }, {
+                  "url": "https://www.drupal.org/project/panopoly",
+                  "text": "Panopoly"
+                },
+                {
+                  "url": "http://www.reactjs.org/",
+                  "text": "ReactJS"
+                },
+                {
+                  "url": "http://redux.js.org/",
+                  "text": "Redux"
+                },
+                {
+                  "url": "https://www.mysql.com/",
+                  "text": "MySQL"
+                }, {
+                  "url": "http://php.net/",
+                  "text": "PHP"
+                },
+                {
+                  "url": "http://lucene.apache.org/solr/",
+                  "text": "Apache Solr"
+                }
+              ]
+            }
+          ],
+          "read-more": "Go to Website"
+        },
+        "fiesc": {
+          "title": "FIESC Website",
+          "description": "Content Management System.",
+          "details": [
+            {
+              "title": "Content visual management",
+              "description": "Autonomy for marketing teams.<br />Editing pages <i>In-line</i> and <i>Drag & Drop</i>."
+            }, {
+              "title": "Entity sites integration",
+              "description": "Five websites become one: FIESC, SESI/SC, SENAI/SC, CIESC and IEL."
+            }, {
+              "title": "Technologies:",
+              "list": [
+                {
+                  "url": "http://www.drupal.org/",
+                  "text": "Drupal"
+                },
+                {
+                  "url": "https://www.drupal.org/project/panopoly",
+                  "text": "Panopoly"
+                }, {
+                  "url": "https://www.mysql.com/",
+                  "text": "MySQL"
+                },
+                {
+                  "url": "http://php.net/",
+                  "text": "PHP"
+                },
+                {
+                  "url": "https://nodejs.org/",
+                  "text": "NodeJS"
+                },
+                {
+                  "url": "http://lucene.apache.org/solr/",
+                  "text": "Apache Solr"
+                }
+              ]
+            }
+          ],
+          "read-more": "Go to website"
+        },
+        "claro": {
+          "title": "Portal Claro Promoções",
+          "description": "Campaign generator with multimedia content.",
+          "details": [
+            {
+              "title": "Visual content management",
+              "description": "Agility and autonomy to content managers."
+            }, {
+              "title": "High precision geolocation",
+              "description": "Promotions delivered per region."
+            }, {
+              "title": "Technologies:",
+              "list": [
+                {
+                  "url": "http://www.drupal.org/",
+                  "text": "Drupal"
+                }, {
+                  "url": "https://www.drupal.org/project/panopoly",
+                  "text": "Panopoly"
+                }, {
+                  "url": "http://www.linux.org/",
+                  "text": "Linux"
+                }, {
+                  "url": "https://www.mysql.com/",
+                  "text": "MySQL"
+                }, {
+                  "url": "http://php.net/",
+                  "text": "PHP"
+                }
+              ]
+            }
+          ],
+          "read-more": "Case's details"
+        }
+      },
+      "aside": {
+        "attention": "We are prepared for a whole variety of technological challenges.",
+        "call-to-action": "Let's talk"
+      },
+      "clientLogos": {
+        "header": "We take innovation and quality for companies of all sizes:"
+      }
+    },
+
+    "products": {
+      "title": "Our product:",
+      "list": {
+        "el-tracker": {
+          "title": "El Tracker",
+          "description": "Lean metrics for <i>web analytics</i>.<br>Event tracking.<br/>No code, few clicks.",
+          "read-more": "Meet El Tracker"
+        }
+      },
+      "aside": {
+        "attention": "We are prepared for a whole variety of technological challenges.",
+        "call-to-action": "Get your project started"
+      }
+    },
+
+    "studio": {
+      "title": "What Taller do",
+      "main": {
+        "title": "Software Development Studio",
+        "description": "We love to help solve complex problems of your business. We develop custom digital solutions to automate your process and help your company to be more efficient.",
+        "list-first": [
+          "Big content websites",
+          "Mobile Apps",
+          "Web Apps"
+        ],
+        "list-second": [
+          "Intranet and Extranet",
+          "System integration",
+          "Custom API's"
+        ],
+        "call-to-action": "Request a proposal"
+      },
+      "aside": {
+        "title": "Our technological stack",
+        "description": "Drupal, NodeJS and ReactJS are in our vein. But our expertise go beyond:",
+        "list": [
+          {
+            "url": "http://www.drupal.org/",
+            "text": "Drupal"
+          }, {
+            "url": "https://facebook.github.io/react",
+            "text": "ReactJS"
+          }, {
+            "url": "http://nodejs.org",
+            "text": "NodeJS"
+          }, {
+            "url": "http://mongodb.com",
+            "text": "MongoDB"
+          },
+          {
+            "url": "http://graphql.org",
+            "text": "GraphQL"
+          },
+          {
+            "url": "http://lucene.apache.org/solr/",
+            "text": "Apache Solr"
+          }
+        ]
+      }
+    },
+
+    "services": {
+      "training": {
+        "title": "Training",
+        "description": "We want to share the management practices and technology know how we acquire working on big projects",
+        "read-more": "Courses"
+      },
+      "consulting": {
+        "title": "Consulting",
+        "description": "When a training is not enoutgh to yours challenges, our team can help to orient your tech and management decisions",
+        "read-more": "Consulting"
+      },
+      "content": {
+        "title": "Content",
+        "description": "We are what we do and what we share. We are always given back to the community.",
+        "read-more": "Blog"
+      }
+    },
+
+    "blog": {
+      "title": "Our blog",
+      "description": "We are passionate about what we do. And we write about our passions:",
+      "list": [
+        "Technology",
+        "Agile/Lean Philosophy",
+        "Design",
+        "Marketing",
+        "Taller Culture"
+      ],
+      "call-to-action": "Visit our blog"
+    },
+
+    "newsletter": {
+      "description": "We are what we do and what we share.<br/>Subscribe to our newsletter:",
+      "placeholder": "Your best e-mail",
+      "subscribe": "Subscribe",
+
+      "form": {
+        "success": {
+          "head": "Cadastro efetuado!",
+          "compliment": "Prometemos enviar apenas os conteúdos e informações que também gostaríamos de receber."
+        },
+        "error": {
+          "head": "Ops!",
+          "compliment": "Comportamento não previsto."
+        }
+      }
+    }
+  },
+
+  "contact": {
+    "title": "Send us a message",
+    "form": {
+      "name": "Your name:",
+      "email": "Your e-mail:",
+      "subject": {
+        "label": "Subject:",
+        "empty": "--Select a subject--",
+        "options": {
+          "Trabalhe Conosco": "Work with us",
+          "Comercial": "Comercial",
+          "Outro": "Other"
+        }
+      },
+      "message": "Your message:",
+      "send": "Send"
+    },
+    "address": {
+      "title": "Our network:",
+      "content": "Servidão Recanto das Pedras, casa 3 - Rio Tavares<br>Florianópolis - SC - Brazil - 88066-248"
+    }
+  },
+
+  "footer": {
+    "contact": {
+      "title": "Contact",
+      "address": "Servidão Recanto das Pedras, casa 3 - Rio Tavares<br>Florianópolis - SC - Brazil - 88066-248"
+    },
+    "extras": {
+      "title": "Extras",
+      "description": "This site was made in an agile way.",
+      "read-more": "Go behind the scenes"
+    }
+  },
+
+  "util": {
+    "know-more": "Read more"
+  },
+
+  "consulting": {
+    "main-title": "<strong>Agile Management</strong><br>Otimization Program",
+    "main-sub-title": "Bringing your company's management to the next level",
+    "info": {
+      "title": "The Program",
+      "description": "With well detailed and adaptable activities, our professionals will smoothly guide the organization in the necessary steps to obtain the sistemic vision of the portfolio and walk towards an incredible project management, and more:",
+      "details": [
+        "Decrease the coordination cost.",
+        "Help the organization in the pursuit of continuous improvement.",
+        "Make management decisions based in numbers and statistics.",
+        "Decrease the impacts of variability and increase the robustness."
+      ]
+    },
+    "consultants": {
+      "title": "Our consultants team",
+      "consultants": [
+        {
+          "name": "<a href='https://www.linkedin.com/in/rafaelcaceres/'>Rafael Caceres</a>",
+          "job": "Co-founder at Taller",
+          "picture": {
+            "url": "./images/rafael.png",
+            "alt": "Picture of Rafael Caceres"
+          }
+        },
+        {
+          "name": "<a href='https://www.linkedin.com/in/marianagraf/'>Mariana Graf</a>",
+          "job": "Facilitator",
+          "picture": {
+            "url": "./images/mariana.png",
+            "alt": "Picture of Mariana Graf"
+          }
+        },
+        {
+          "name": "<a href='https://www.linkedin.com/in/celsoavmartins/'>Celso Martins</a>",
+          "job": "Agile Coach at Taller",
+          "picture": {
+            "url": "./images/celso.png",
+            "alt": "Picture of Celso Martins"
+          }
+        }
+      ]
+    },
+    "why": {
+      "title": "Why take the program to your company",
+      "description": "With years of experience applying agility and continuous improvement in the main areas of software development, Taller has brought together the experience of soft and hard skills and prepared the program to optimize the following matters:",
+      "details": [
+        "Previsibility and visibility of the organization's projects.",
+        "Decrease of the economical impacts of this variability",
+        "Priorization of projects and tasks.",
+        "When to hire.",
+        "How to manage the knowledge of multiple teams so the information will not get lost in the organization."
+      ],
+      "conclusion": "The program has it's bases in the Kanban method, and in the most modern concepts developed within it, like the concept of fitness for purpose and some elements from STATIK."
+    },
+    "how": {
+      "title": "How does the program work",
+      "description": "The Agile Management Otimization Program was conceived to be applied in a 100% remote way, easying the workflow.",
+      "picture": {
+        "url": "../images/comofuncionathumb.jpg",
+        "alt": "How it works"
+      },
+      "modal-picture": {
+        "url": "../images/comofunciona.jpg",
+        "alt": "How it works"
+      },
+      "steps": [
+        {
+          "index": "Step 1:",
+          "title": "Read the system",
+          "description": "In this reading we raise the essencial data and behaviors to the understanding of the context's dinamyc and application of the program. All the system of metrics, such as every artifact will be raised and mapped."
+        },
+        {
+          "index": "Step 2:",
+          "title": "Establish a Plan",
+          "description": "Action and rollback plans to start the desired changes. This step includes activities which will result in reports, meetings' cadency and strategy and \"proto-plans\" that are not more than the result of assimetric and SWOT analysis."
+        },
+        {
+          "index": "Step 3:",
+          "title": "Spin the Wheel",
+          "description": "We will follow the cadency of boards' filling and analysis, the flow politics and presentations filling. We will also have the execution of the comunication's plan for bigger changes, looking what was defined in the previous steps."
+        }
+      ]
+    },
+    "invited": {
+      "title": "Special guests",
+      "description": "Beyond all the activities developed along the Program, we count on the Lean Management Mentoring Plan with Alisson Vale, Rodrigo Yoshima and Luiz Parzianello developed exclusively to this program.",
+      "people": [
+        {
+          "img": {
+            "url": "./images/yoshima.png",
+            "alt": "Picture of Rodrigo Yoshima"
+          },
+          "name": "<a href='https://www.linkedin.com/in/rodrigoy/'>Rodrigo Yoshima</a>",
+          "job": "Founder at Aspercom"
+        },
+        {
+          "img": {
+            "url": "./images/alisson.png",
+            "alt": "Picture of Alisson Vale"
+          },
+          "name": "<a href='https://www.linkedin.com/in/alissonvale/'>Alisson Vale</a>",
+          "job": "Founder at Software Zen"
+        },
+        {
+          "img": {
+            "url": "./images/luiz.png",
+            "alt": "Picture of Luiz Parzianello"
+          },
+          "name": "<a href='https://www.linkedin.com/in/luizparzianello/'>Luiz Parzianello</a>",
+          "job": "Author of Lean Business Analysis"
+        }
+      ]
+    },
+    "contents": {
+      "title": "Support content",
+      "items": [
+        {
+          "icon": {
+            "url": "./images/sheets.png",
+            "alt": "E-book icon"
+          },
+          "title": "<a href='http://blog.taller.net.br/do-caos-ao-custo-medio-por-demanda/'>Ebook - From chaos to average cost per demand (pt-br)</a>"
+        },
+        {
+          "icon": {
+            "url": "./images/sheets.png",
+            "alt": "E-book icon"
+          },
+          "title": "<a href='http://blog.taller.net.br/ebook-equilibrio-portfolio-projeto/'>Ebook - The Balance of the Project Portfolio (pt-br)</a>"
+        },
+        {
+          "icon": {
+            "url": "./images/phones.png",
+            "alt": "Podcast icon"
+          },
+          "title": "<a href='http://blog.taller.net.br/taverna-taller-8-fluxo-unificado-celso-martins/'>Podcast - The Basis of Unified Flow (pt-br)</a>"
+        }
+      ]
+    },
+    "footer": {
+      "title": "Get in touch if your company seeks to go to next level of management.",
+      "description": "Schedule a talk with one of ours consultants, take your doubts and obtain the needed informations to begin the Agile Management Otimization Program.",
+      "contact": {
+        "label": "Just send an email to:",
+        "email": "<script language='JavaScript'> var username = 'rafael'; var hostname = 'taller.net.br'; var linktext = username + '@' + hostname ; document.write(\"<a href='\" + \"mail\" + \"to:\" + username + \"@\" + hostname + \"'>\" + linktext + \"</a>\");</script>",
+        "phone": "or call:<br> +55 48 999 330 297"
+      }
+    }
+  }
+}

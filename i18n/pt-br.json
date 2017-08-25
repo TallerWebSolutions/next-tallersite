@@ -1,0 +1,477 @@
+{
+  "site": {
+    "title": "Taller Negócios Digitais: empresa especializada em Drupal e ReactJS.",
+    "description": "Somos um time de desenvolvimento de software especializado em Drupal e ReactJS. Também oferecemos consultorias e treinamentos."
+  },
+
+  "menu": {
+    "contact": "Contato"
+  },
+
+  "header": {
+    "hero": "Somos um time que desenvolve software de qualidade para inovações tecnológicas de alta complexidade.",
+    "subhero":""
+  },
+
+  "section": {
+    "who": {
+      "title": "Sobre a Taller",
+      "main": {
+        "description": "Gostaria de fazer parte do nosso time?",
+        "call-to-action": "Envie seu currículo"
+      },
+      "aside": {
+        "title": "Nossa cultura valoriza",
+        "list": [
+          "#Pessoas",
+          "#Transparência",
+          "#Auto-organização",
+          "#Compartilhar conhecimento",
+          "#Fluxo continuo de entrega de valor",
+          "#Participação e organização de eventos",
+          "#Colaboração em comunidades de código aberto"
+        ],
+        "call-to-action": "<a target='_blank' href='http://blog.taller.net.br/a-historia-da-taller-2-0/'>Conheça nosso time e nossa história.</a>"
+      }
+    },
+
+    "cases": {
+      "title": "Cases de destaque",
+      "list": {
+        "natura": {
+          "title": "Portal Natura",
+          "description": "Sistema de Gestão de Conteúdo com suporte a multi idioma.",
+          "details": [
+            {
+              "title": "Gestão visual de conteúdo",
+              "description": "Autonomia para equipe de marketing.<br />Edição das páginas <i>In-line</i> e <i>Drag & Drop</i>."
+            }, {
+              "title": "Redução de custos",
+              "description": "Redução no custo total de operação e remoção de licenças proprietarias."
+            }, {
+              "title": "Tecnologias utilizadas:",
+              "list": [
+                {
+                  "url": "https://www.acquia.com/products-services/acquia-cloud",
+                  "text": "Acquia Cloud"
+                },
+                {
+                  "url": "http://www.drupal.org/",
+                  "text": "Drupal"
+                }, {
+                  "url": "https://www.drupal.org/project/panopoly",
+                  "text": "Panopoly"
+                },
+                {
+                  "url": "http://www.reactjs.org/",
+                  "text": "ReactJS"
+                },
+                {
+                  "url": "http://redux.js.org/",
+                  "text": "Redux"
+                },
+                {
+                  "url": "https://www.mysql.com/",
+                  "text": "MySQL"
+                }, {
+                  "url": "http://php.net/",
+                  "text": "PHP"
+                },
+                {
+                  "url": "http://lucene.apache.org/solr/",
+                  "text": "Apache Solr"
+                }
+              ]
+            }
+          ],
+          "read-more": "Visite o site"
+        },
+        "fiesc": {
+          "title": "Portal FIESC",
+          "description": "Sistema de gestão de conteúdo.",
+          "details": [
+            {
+              "title": "Gestão visual de conteúdo",
+              "description": "Autonomia para o marketing."
+            }, {
+              "title": "Integração dos sites das entidades",
+              "description": "Um ponto único para gestão do conteúdo da FIESC, SESI/SC, SENAI/SC, CIESC E IEL."
+            }, {
+              "title": "Tecnologias utilizadas:",
+              "list": [
+                {
+                  "url": "http://www.drupal.org/",
+                  "text": "Drupal"
+                },
+                {
+                  "url": "https://www.drupal.org/project/panopoly",
+                  "text": "Panopoly"
+                }, {
+                  "url": "https://www.mysql.com/",
+                  "text": "MySQL"
+                },
+                {
+                  "url": "http://php.net/",
+                  "text": "PHP"
+                },
+                {
+                  "url": "https://nodejs.org/",
+                  "text": "NodeJS"
+                },
+                {
+                  "url": "http://lucene.apache.org/solr/",
+                  "text": "Apache Solr"
+                }
+              ]
+            }
+          ],
+          "read-more": "Visite o site"
+        },
+        "claro": {
+          "title": "Sistema Claro Promoções",
+          "description": "Gerador de campanhas com conteúdo multimídia.",
+          "details": [
+            {
+              "title": "Gestão visual de conteúdo",
+              "description": "Agilidade e autonomia aos conteudistas."
+            }, {
+              "title": "Geolocalização de alta precisão",
+              "description": "Entregas de promoções regionalizadas."
+            }, {
+              "title": "Tecnologias utilizadas:",
+              "list": [
+                {
+                  "url": "http://www.drupal.org/",
+                  "text": "Drupal"
+                }, {
+                  "url": "https://www.drupal.org/project/panopoly",
+                  "text": "Panopoly"
+                }, {
+                  "url": "http://www.linux.org/",
+                  "text": "Linux"
+                }, {
+                  "url": "https://www.mysql.com/",
+                  "text": "MySQL"
+                },
+                {
+                  "url": "http://php.net/",
+                  "text": "PHP"
+                },
+                {
+                  "url": "http://lucene.apache.org/solr/",
+                  "text": "Apache Solr"
+                }
+              ]
+            }
+          ],
+          "read-more": "Detalhes do case"
+        }
+      },
+      "aside": {
+        "attention": "Estamos preparados para os mais variados desafios tecnológicos.",
+        "call-to-action": "Vamos conversar"
+      },
+      "clientLogos": {
+        "header": "Levamos inovação e qualidade para as empresas de todos os tamanhos:"
+      }
+    },
+
+    "products": {
+      "title": "Nosso produto:",
+      "list": {
+        "el-tracker": {
+          "title": "El Tracker",
+          "description": "Métricas Lean para <i>web analytics</i>.<br>Rastreamento de eventos.<br/>Sem código, poucos cliques.",
+          "read-more": "Conheça o El Tracker"
+        }
+      },
+      "aside": {
+        "attention": "Nós estamos preparados para os mais variados desafios tecnológicos.",
+        "call-to-action": "Comece seu projeto conosco"
+      }
+    },
+
+    "studio": {
+      "title": "O que a Taller faz",
+      "main": {
+        "title": "Ateliê de desenvolvimento de software",
+        "description": "Gostamos muito de resolver problemas complexos dos seus negócios. Desenvolvemos soluções digitais customizadas para automatizar seus processos e ajudar sua empresa a ser mais eficiente.",
+        "list-first": [
+          "Grandes portais de conteúdo",
+          "Aplicativos mobile",
+          "Sistemas Web"
+        ],
+        "list-second": [
+          "Intranet e Extranet",
+          "Integração entre sistemas",
+          "API's sob medida"
+        ],
+        "call-to-action": "Solicite uma proposta"
+      },
+      "aside": {
+        "title": "Nosso stack tecnológico",
+        "description": "Drupal, NodeJS e ReactJS estão na nossa veia. Mas nossa expertise tecnológica vai muito além:",
+        "list": [
+          {
+            "url": "http://www.drupal.org/",
+            "text": "Drupal"
+          }, {
+            "url": "https://facebook.github.io/react",
+            "text": "ReactJS"
+          }, {
+            "url": "http://nodejs.org",
+            "text": "NodeJS"
+          }, {
+            "url": "http://mongodb.com",
+            "text": "MongoDB"
+          },
+          {
+            "url": "http://graphql.org",
+            "text": "GraphQL"
+          },
+          {
+            "url": "http://lucene.apache.org/solr/",
+            "text": "Apache Solr"
+          }
+        ]
+      }
+    },
+
+    "services": {
+      "training": {
+        "title": "Treinamentos",
+        "description": "Queremos compartilhar as nossas práticas de gestão e know how tecnológico que adquirimos trabalhando com grandes projetos.",
+        "read-more": "Cursos"
+      },
+      "consulting": {
+        "title": "Consultoria",
+        "description": "Quando um curso é pouco para o desafio do seu projeto, nosso time pode orientar de perto as suas decisões tecnológicas e de gestão.",
+        "read-more": "Consultorias"
+      },
+      "content": {
+        "title": "Conteúdo",
+        "description": "Nós somos o que fazemos e o que compartilhamos. Estamos sempre retribuindo nossa gratidão com a comunidade.",
+        "read-more": "Blog"
+      }
+    },
+
+    "blog": {
+      "title": "Nosso blog",
+      "description": "Somos apaixonados pelo que fazemos. E escrevemos sobre nossas paixões:",
+      "list": [
+        "Tecnologia",
+        "Filosofia ágil",
+        "Design",
+        "Marketing",
+        "Cultura Taller"
+      ],
+      "call-to-action": "Visite nosso blog"
+    },
+
+    "newsletter": {
+      "description": "Somos o que fazemos e o que compartilhamos.<br/>Receba nossas novidades e conteúdos:",
+      "placeholder": "Seu e-mail",
+      "subscribe": "Receber novidades",
+
+      "form": {
+        "success": {
+          "head": "Cadastro efetuado!",
+          "compliment": "Prometemos enviar apenas os conteúdos e informações que também gostaríamos de receber."
+        },
+        "error": {
+          "head": "Ops!",
+          "compliment": "Comportamento não previsto."
+        }
+      }
+    }
+  },
+
+  "contact": {
+    "title": "Mande uma mensagem",
+    "form": {
+      "name": "Seu nome:",
+      "email": "Seu e-mail:",
+      "subject": {
+        "label": "Assunto:",
+        "empty": "--Selecione um assunto--",
+        "options": {
+          "Trabalhe Conosco": "Trabalhe conosco",
+          "Comercial": "Comercial",
+          "Outro": "Outro"
+        }
+      },
+      "message": "Sua mensagem:",
+      "send": "Enviar"
+    },
+    "address": {
+      "title": "Nossa rede de contatos:",
+      "content": "Servidão Recanto das Pedras, casa 3 - Rio Tavares<br>Florianópolis - SC - 88066-248"
+    }
+  },
+
+  "footer": {
+    "contact": {
+      "title": "Contatos",
+      "address": "Servidão Recanto das Pedras, casa 3 - Rio Tavares<br>Florianópolis - SC - 88066-248"
+    },
+    "extras": {
+      "title": "Extras",
+      "description": "Esse site foi feito de forma ágil.",
+      "read-more": "Veja os bastidores"
+    }
+  },
+
+  "util": {
+    "know-more": "Saiba mais"
+  },
+
+  "consulting": {
+    "main-title": "Programa de Otimização da <br><strong>Gestão Ágil</strong>",
+    "main-sub-title": "Levando a gestão da sua empresa para o próximo nível",
+    "info": {
+      "title": "O Programa",
+      "description": "Com atividades bem detalhadas e adaptáveis, nossos profissionais guiarão suavemente a organização nos passos necessários para obter a visão sistêmica do portfólio e caminhar em direção a uma gestão de projetos incrível. E mais:",
+      "details": [
+        "Diminua o custo de coordenação.",
+        "Auxilie a organização na busca pela melhoria contínua.",
+        "Tome decisões de gestão com base em números e estatísticas.",
+        "Reduza os impactos da variabilidade e aumente a robustez."
+      ]
+    },
+    "consultants": {
+      "title": "Nosso time de consultores",
+      "consultants": [
+        {
+          "name": "<a href='https://www.linkedin.com/in/rafaelcaceres/'>Rafael Caceres</a>",
+          "job": "Co-fundador da Taller",
+          "picture": {
+            "url": "./images/rafael.png",
+            "alt": "Foto de Rafael Caceres"
+          }
+        },
+        {
+          "name": "<a href='https://www.linkedin.com/in/marianagraf/'>Mariana Graf</a>",
+          "job": "Facilitadora",
+          "picture": {
+            "url": "./images/mariana.png",
+            "alt": "Foto de Mariana Graf"
+          }
+        },
+        {
+          "name": "<a href='https://www.linkedin.com/in/celsoavmartins/'>Celso Martins</a>",
+          "job": "Agile Coach na Taller",
+          "picture": {
+            "url": "./images/celso.png",
+            "alt": "Foto de Celso Martins"
+          }
+        }
+      ]
+    },
+    "why": {
+      "title": "Por que levar o programa para sua empresa",
+      "description": "Com experiência de anos aplicando agilidade e melhoria contínua nas principais áreas do desenvolvimento de software, a Taller uniu a experiência do soft e hard skills e preparou o Programa para otimizar os seguintes pontos:",
+      "details": [
+        "Previsibilidade e visibilidade dos projetos da organização.",
+        "Redução dos impactos econômicos dessa variabilidade.",
+        "Priorização de projetos e demandas.",
+        "Quando contratar.",
+        "Como gerenciar o conhecimento de diversos times para que a informação não se perca na organização."
+      ],
+      "conclusion": "O programa possui suas bases no Método Kanban, e nos conceitos mais modernos desenvolvidos em torno dele, como o conceito de fitness for purpose e alguns elementos do STATIK."
+    },
+    "how": {
+      "title": "Como funciona o Programa",
+      "description": "O Programa de Otimização da Gestão Ágil foi concebido para ser aplicado de forma 100% remota, facilitando o fluxo de trabalho.",
+      "picture": {
+        "url": "../images/comofuncionathumb.jpg",
+        "alt": "Como funciona"
+      },
+      "modal-picture": {
+        "url": "../images/comofunciona.jpg",
+        "alt": "Como funciona"
+      },
+      "steps": [
+        {
+          "index": "Etapa 1:",
+          "title": "Ler o Sistema",
+          "description": "Nesta leitura levantamos dados e comportamento essenciais para o entendimento da dinâmica do contexto e aplicação do programa. Todo o sistema de métricas, assim como todos os artefatos serão levantados e mapeados."
+        },
+        {
+          "index": "Etapa 2:",
+          "title": "Estabelecer um Plano",
+          "description": "Planos de ação e de rollback para iniciar as mudanças desejadas. Este passo possui atividades que resultarão em relatórios,  cadência e estratégia de reuniões e \"proto-planos\" que nada mais são que o resultado de análises de assimetrias e SWOT."
+        },
+        {
+          "index": "Etapa 3:",
+          "title": "Girar a Roda",
+          "description": "Acompanharemos as cadências de preenchimento e análise das planilhas, as políticas de fluxo e preenchimento de apresentações. Também teremos a execução do plano de comunicação para mudanças maiores, olhando o que foi definido nos passos anteriores."
+        }
+      ]
+    },
+    "invited": {
+      "title": "Convidados Especiais",
+      "description": "Além de todas as atividades desenvolvidas ao longo do Programa, contamos com o Plano de Mentoria em Gestão Enxuta com Alisson Vale, Rodrigo Yoshima e Luiz Parzianello desenvolvido exclusivamente para este programa.",
+      "people": [
+        {
+          "img": {
+            "url": "./images/yoshima.png",
+            "alt": "Foto de Rodrigo Yoshima"
+          },
+          "name": "<a href='https://www.linkedin.com/in/rodrigoy/'>Rodrigo Yoshima</a>",
+          "job": "Fundador da Aspercom"
+        },
+        {
+          "img": {
+            "url": "./images/alisson.png",
+            "alt": "Foto de Alisson Vale"
+          },
+          "name": "<a href='https://www.linkedin.com/in/alissonvale/'>Alisson Vale</a>",
+          "job": "Fundador do Software Zen"
+        },
+        {
+          "img": {
+            "url": "./images/luiz.png",
+            "alt": "Foto de Luiz Parzianello"
+          },
+          "name": "<a href='https://www.linkedin.com/in/luizparzianello/'>Luiz Parzianello</a>",
+          "job": "Autor do Lean Business Analysis"
+        }
+      ]
+    },
+    "contents": {
+      "title": "Conteúdos de Apoio",
+      "items": [
+        {
+          "icon": {
+            "url": "./images/sheets.png",
+            "alt": "Ícone do e-book"
+          },
+          "title": "<a href='http://blog.taller.net.br/do-caos-ao-custo-medio-por-demanda/'>Ebook - Do caos ao custo médio por demanda</a>"
+        },
+        {
+          "icon": {
+            "url": "./images/sheets.png",
+            "alt": "Ícone do e-book"
+          },
+          "title": "<a href='http://biblioteca.taller.net.br/equilibrio_portfolio_projetos/'>Ebook - O equilíbrio do Portfólio de Projetos</a>"
+        },
+        {
+          "icon": {
+            "url": "./images/phones.png",
+            "alt": "Ícone do podcast"
+          },
+          "title": "<a href='http://blog.taller.net.br/taverna-taller-8-fluxo-unificado-celso-martins/'>Podcast - As bases do fluxo unificado</a>"
+        }
+      ]
+    },
+    "footer": {
+      "title": "Se sua empresa busca ir para próximo nível de gestão entre em contato.",
+      "description": "Agende uma conversa com um dos nossos consultores, tire suas dúvidas e obtenha as informações necessárias para começar o Programa de Otimização da Gestão Ágil.",
+      "contact": {
+        "label": "É só enviar um email para:",
+        "email": "<script language='JavaScript'> var username = 'rafael'; var hostname = 'taller.net.br'; var linktext = username + '@' + hostname ; document.write(\"<a href='\" + \"mail\" + \"to:\" + username + \"@\" + hostname + \"'>\" + linktext + \"</a>\"); </script>",
+        "phone": "ou ligar para:<br />+55 48 9 9933 0297"
+      }
+    }
+  }
+}
