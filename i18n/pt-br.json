@@ -39,6 +39,11 @@
       "title": "Cases de destaque",
       "list": {
         "natura": {
+          "id": "case-natura",
+          "image": {
+            "alt": "Print screen do Portal Natura",
+            "url": "/static/images/mockup_natura.png"
+          },
           "title": "Portal Natura",
           "description": "Sistema de Gestão de Conteúdo com suporte a multi idioma.",
           "details": [
@@ -84,9 +89,17 @@
               ]
             }
           ],
-          "read-more": "Visite o site"
+          "readMore": {
+            "text": "Visite o site",
+            "url": "http://natura.com.br"
+          }
         },
         "fiesc": {
+          "id": "case-fiesc",
+          "image": {
+            "alt": "Print screen do Portal FIESC",
+            "url": "/static/images/mockup_fiesc.png"
+          },
           "title": "Portal FIESC",
           "description": "Sistema de gestão de conteúdo.",
           "details": [
@@ -125,9 +138,17 @@
               ]
             }
           ],
-          "read-more": "Visite o site"
+          "readMore": {
+            "text": "Visite o site",
+            "url": "http://fiesc.com.br"
+          }
         },
         "claro": {
+          "id": "case-claro",
+          "image": {
+            "alt": "Print screen do Sistema Claro Promoções",
+            "url": "/static/images/mockup_claro.png"
+          },
           "title": "Sistema Claro Promoções",
           "description": "Gerador de campanhas com conteúdo multimídia.",
           "details": [
@@ -164,7 +185,10 @@
               ]
             }
           ],
-          "read-more": "Detalhes do case"
+          "readMore": {
+            "text": "Detalhes do case",
+            "url": "https://www.drupal.org/node/2330069"
+          }
         }
       },
       "aside": {

@@ -45,6 +45,11 @@
       "title": "Featured cases",
       "list": {
         "natura": {
+          "id": "case-natura",
+          "image": {
+            "alt": "Print screen from Natura Portal",
+            "url": "/static/images/mockup_natura.png"
+          },
           "title": "Natura Website",
           "description": "Content Management System.",
           "details": [
@@ -90,9 +95,17 @@
               ]
             }
           ],
-          "read-more": "Go to Website"
+          "readMore": {
+            "text": "Go to website",
+            "url": "http://natura.com.br"
+          }
         },
         "fiesc": {
+          "id": "case-fiesc",
+          "image": {
+            "alt": "Print screen from FIESC Portal",
+            "url": "/static/images/mockup_fiesc.png"
+          },
           "title": "FIESC Website",
           "description": "Content Management System.",
           "details": [
@@ -131,9 +144,17 @@
               ]
             }
           ],
-          "read-more": "Go to website"
+          "readMore": {
+            "text": "Go to website",
+            "url": "http://fiesc.com.br"
+          }
         },
         "claro": {
+          "id": "case-claro",
+          "image": {
+            "alt": "Print screen from Claro Promotions System",
+            "url": "/static/images/mockup_claro.png"
+          },
           "title": "Portal Claro Promoções",
           "description": "Campaign generator with multimedia content.",
           "details": [
@@ -165,7 +186,10 @@
               ]
             }
           ],
-          "read-more": "Case's details"
+          "readMore": {
+            "text": "Case's details",
+            "url": "https://www.drupal.org/node/2330069"
+          }
         }
       },
       "aside": {
