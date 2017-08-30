@@ -1,15 +1,32 @@
 import React from 'react'
+import { compose } from 'recompose'
 
+import {  withI18n  } from '../i18n/i18n.js'
 import { page } from '../lib/routing.js'
+
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Newsletter from '../components/Newsletter'
 
-const Home = () => (
+
+const Home = ({ i18n }) => (
   <div className='body'>
     <Header />
 
     {
+      <section id="section-clients">
+        <main>
+          <h4>{ i18n('section.cases.clientLogos.header') }</h4>
+          <ul>
+            <li><img src="static/images/parceiros/natura.svg" title="Natura" alt="Natura"/></li>
+            <li><img src="static/images/parceiros/ogilvy.svg" title="Ogilvy" alt="Ogilvy"/></li>
+            <li><img src="static/images/parceiros/claro.svg" title="Claro" alt="Claro"/></li>
+            <li><img src="static/images/parceiros/fiesc.svg" title="FIESC" alt="FIESC"/></li>
+            <li><img src="static/images/parceiros/usp.svg" title="USP" alt="USP"/></li>
+            <li><img src="static/images/parceiros/abril.svg" title="Editora Abril" alt="Editora Abril"/></li>
+          </ul>
+        </main>
+      </section>
 
           // <section id="section-members">
           //   <ul>
@@ -331,4 +348,7 @@ const Home = () => (
   </div>
 )
 
-export default page(Home)
+export default compose(
+  page,
+  withI18n
+)(Home)
