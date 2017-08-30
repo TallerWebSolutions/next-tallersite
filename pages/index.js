@@ -10,26 +10,49 @@ import AboutUs from '../components/AboutUs'
 import Footer from '../components/Footer'
 import Newsletter from '../components/Newsletter'
 
-
 const Home = ({ i18n }) => (
   <div className='body'>
     <Header />
 
     {
-      <section id="section-clients">
-        <main>
-          <h4>{ i18n('section.cases.clientLogos.header') }</h4>
-          <ul>
-            <li><img src="static/images/parceiros/natura.svg" title="Natura" alt="Natura"/></li>
-            <li><img src="static/images/parceiros/ogilvy.svg" title="Ogilvy" alt="Ogilvy"/></li>
-            <li><img src="static/images/parceiros/claro.svg" title="Claro" alt="Claro"/></li>
-            <li><img src="static/images/parceiros/fiesc.svg" title="FIESC" alt="FIESC"/></li>
-            <li><img src="static/images/parceiros/usp.svg" title="USP" alt="USP"/></li>
-            <li><img src="static/images/parceiros/abril.svg" title="Editora Abril" alt="Editora Abril"/></li>
-          </ul>
-        </main>
-      </section>
+      <div>
+        <section id="section-clients">
+          <main>
+            <h4>{ i18n('section.cases.clientLogos.header') }</h4>
+            <ul>
+              <li><img src="static/images/parceiros/natura.svg" title="Natura" alt="Natura"/></li>
+              <li><img src="static/images/parceiros/ogilvy.svg" title="Ogilvy" alt="Ogilvy"/></li>
+              <li><img src="static/images/parceiros/claro.svg" title="Claro" alt="Claro"/></li>
+              <li><img src="static/images/parceiros/fiesc.svg" title="FIESC" alt="FIESC"/></li>
+              <li><img src="static/images/parceiros/usp.svg" title="USP" alt="USP"/></li>
+              <li><img src="static/images/parceiros/abril.svg" title="Editora Abril" alt="Editora Abril"/></li>
+            </ul>
+          </main>
+        </section>
 
+        <section id="section-who">
+          <header>
+            <h2>{ i18n('section.who.title') } </h2>
+          </header>
+
+          <article>
+            <aside>
+              <h3>{ i18n('section.who.aside.title') }:</h3>
+              <ul>
+                {(i18n('section.who.aside.list')).map(item => (
+                  <li>{ item }</li>
+                ))}
+              </ul>
+              { i18n('section.who.aside.call-to-action') }
+            </aside>
+            <main>
+              <img src="static/images/galera.png" alt="Taller Team"/>
+              <p>{ i18n('section.who.main.description') }</p>
+              <a className="call-to-action" href="#contact">{ i18n('section.who.main.call-to-action') }</a>
+            </main>
+          </article>
+        </section>
+      </div>
           // <section id="section-members">
           //   <ul>
           //     <li
