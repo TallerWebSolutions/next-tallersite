@@ -3,6 +3,7 @@ import React from 'react'
 import { page } from '../lib/routing.js'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Newsletter from '../components/Newsletter'
 
 const Home = () => (
   <div className='body'>
@@ -325,6 +326,7 @@ const Home = () => (
           //
           //
     }
+    <Newsletter />
     <Footer />
   </div>
 )

@@ -1102,7 +1102,7 @@ footer > header {
 #section-products {
   display: none;
   padding-bottom: 8rem;
-  background: url("/images/el-tracker-background.png");
+  background: url("/static/images/el-tracker-background.png");
   background-size: initial;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -1199,21 +1199,23 @@ footer > header {
     #section-services aside a, #section-services main a {
       color: #666666; }
   #section-services .services-training h3::before {
-    background: url("/images/icons/icon_treinameto.png") no-repeat center center; }
+    background: url("/static/images/icons/icon_treinameto.png") no-repeat center center; }
   #section-services .services-consulting h3::before {
-    background: url("/images/icons/icon_consultoria.png") no-repeat center center; }
+    background: url("/static/images/icons/icon_consultoria.png") no-repeat center center; }
   #section-services .services-content h3::before {
-    background: url("/images/icons/icon_conteudo.png") no-repeat center center; }
+    background: url("/static/images/icons/icon_conteudo.png") no-repeat center center; }
 
 /**
  * Newsletter section styles.
  */
 #section-newsletter {
   padding: 6rem 10% 12rem;
-  background: url("/images/newsletter-background.jpg") bottom center no-repeat;
+  background: url("/static/images/newsletter-background.jpg") bottom center no-repeat;
   text-align: center; }
   #section-newsletter input {
-    width: 17em; }
+    width: 17em;
+    margin-right: 0.5em;
+  }
   #section-newsletter form, #section-newsletter #news-main > p {
     transition: visibility 0s linear 0.5s, opacity 0.5s linear; }
   #section-newsletter .status-success form, #section-newsletter .status-success > p,
