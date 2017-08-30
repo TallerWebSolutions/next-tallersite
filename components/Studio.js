@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { PropTypes } from 'react'
+import { compose } from 'recompose'
 
 import { withI18n } from '../i18n/i18n.js'
 
 const Studio = ({ i18n }) => (
-  <section id="section-studio">
+  <section id='section-studio'>
     <header>
       <h2>{ i18n('section.studio.title') }</h2>
     </header>
@@ -11,22 +12,22 @@ const Studio = ({ i18n }) => (
     <main>
       <h3>{ i18n('section.studio.main.title') }</h3>
       <p>{ i18n('section.studio.main.description') }</p>
-      <article className="what">
-        <ul className="services-list-first">
+      <article className='what'>
+        <ul className='services-list-first'>
           { i18n('section.studio.main.list-first').map(item => (
             <li key={ item }>{ item }</li>
           )) }
         </ul>
-        <ul className="services-list-second">
+        <ul className='services-list-second'>
           { i18n('section.studio.main.list-second').map(item => (
             <li key={ item }>{ item }</li>
           )) }
         </ul>
       </article>
-      <a className="call-to-action" href="#contact">{ i18n('section.studio.main.call-to-action') }</a>
+      <a className='call-to-action' href='#contact'>{ i18n('section.studio.main.call-to-action') }</a>
     </main>
 
-    <aside className="services-stack">
+    <aside className='services-stack'>
       <h3>{ i18n('section.studio.aside.title') }</h3>
       <p>{ i18n('section.studio.aside.description') }</p>
       <ul>
@@ -38,4 +39,10 @@ const Studio = ({ i18n }) => (
   </section>
 )
 
-export default withI18n(Studio)
+Studio.propTypes = {
+  i18n: PropTypes.func
+}
+
+export default compose(
+  withI18n
+)(Studio)
