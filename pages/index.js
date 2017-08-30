@@ -7,6 +7,7 @@ import { page } from '../lib/routing.js'
 import Header from '../components/Header'
 import Services from '../components/Services'
 import AboutUs from '../components/AboutUs'
+import Cases from '../components/Cases'
 import Footer from '../components/Footer'
 import Newsletter from '../components/Newsletter'
 import Studio from '../components/Studio'
@@ -134,7 +135,7 @@ const Home = ({ i18n }) => (
           //   </aside>
           //   {{/with}}
           // </section>
-
+          <Cases />
           // <section id="section-cases">
           //   {{#with section.cases}}
           //   <header>
