@@ -110,8 +110,6 @@ const Home = ({ i18n }) => (
           //   {{/with}}
           // </section>
 
-          <Services />
-
           // <section id="section-cases">
           //   {{#with section.cases}}
           //   <header>
@@ -324,6 +322,7 @@ const Home = ({ i18n }) => (
           //
           //
     }
+    <Services />
     <Newsletter />
     <Footer />
   </div>
