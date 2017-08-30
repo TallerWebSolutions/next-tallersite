@@ -6,6 +6,7 @@ import { page } from '../lib/routing.js'
 
 import Header from '../components/Header'
 import Services from '../components/Services'
+import AboutUs from '../components/AboutUs'
 import Footer from '../components/Footer'
 import Newsletter from '../components/Newsletter'
 
@@ -214,30 +215,7 @@ const Home = ({ i18n }) => (
           // </section>
           //
           //
-          // <section id="section-who">
-          //   {{#with section.who}}
-          //   <header>
-          //     <h2>{{title}}</h2>
-          //   </header>
           //
-          //   <article>
-          //     <aside>
-          //       <h3>{{aside.title}}:</h3>
-          //       <ul>
-          //         {{#each aside.list}}
-          //         <li>{{{this}}}</li>
-          //         {{/each}}
-          //       </ul>
-          //       {{{aside.call-to-action}}}
-          //     </aside>
-          //     <main>
-          //       <img src="/images/galera.png" alt="Taller Team">
-          //       <p>{{{main.description}}}</p>
-          //       <a className="call-to-action" href="#contact">{{{main.call-to-action}}}</a>
-          //     </main>
-          //   </article>
-          //   {{/with}}
-          // </section>
           //
           //
           // <section id="section-newsletter">
@@ -323,6 +301,7 @@ const Home = ({ i18n }) => (
           //
     }
     <Services />
+    <AboutUs />
     <Newsletter />
     <Footer />
   </div>
