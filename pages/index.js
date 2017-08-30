@@ -5,6 +5,7 @@ import {  withI18n  } from '../i18n/i18n.js'
 import { page } from '../lib/routing.js'
 
 import Header from '../components/Header'
+import Services from '../components/Services'
 import Footer from '../components/Footer'
 import Newsletter from '../components/Newsletter'
 
@@ -108,29 +109,9 @@ const Home = ({ i18n }) => (
           //   </aside>
           //   {{/with}}
           // </section>
-          //
-          // <section id="section-services">
-          //   {{#with section.services}}
-          //   <aside className="services-training">
-          //     <h3>{{training.title}}</h3>
-          //     <p>{{training.description}}</p>
-          //     <a className="call-to-action" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf8UWmFYOTHI60na5oI9Dp-1cs3n5UCU3Dab5n9I5WZ0jLuHw/viewform?c=0&w=1">{{training.read-more}}</a>
-          //   </aside>
-          //
-          //   <main className="services-consulting">
-          //     <h3>{{consulting.title}}</h3>
-          //     <p>{{consulting.description}}</p>
-          //     <a className="call-to-action" href="consultoria.html">{{consulting.read-more}}</a>
-          //   </main>
-          //
-          //   <aside className="services-content">
-          //     <h3>{{content.title}}</h3>
-          //     <p>{{content.description}}</p>
-          //     <a className="call-to-action" target="_blank" href="http://blog.taller.net.br">{{content.read-more}}</a>
-          //   </aside>
-          //   {{/with}}
-          // </section>
-          //
+
+          <Services />
+
           // <section id="section-cases">
           //   {{#with section.cases}}
           //   <header>
@@ -281,8 +262,8 @@ const Home = ({ i18n }) => (
           //   </main>
           //   {{/with}}
           // </section>
-          //
-          //
+
+
           // <section id="contact" data-remodal-id="contact" data-remodal-options="closeOnOutsideClick: false" className="remodal">
           //   {{#with contact}}
           //   <header>
