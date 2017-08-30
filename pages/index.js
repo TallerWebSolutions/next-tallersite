@@ -54,6 +54,8 @@ const Home = ({ i18n }) => (
             </main>
           </article>
         </section>
+
+        <Cases />
       </div>
           // <section id="section-members">
           //   <ul>
@@ -135,7 +137,6 @@ const Home = ({ i18n }) => (
           //   </aside>
           //   {{/with}}
           // </section>
-          <Cases />
           //
           //
           //
