@@ -2,6 +2,7 @@ import React from 'react'
 
 import { page } from '../lib/routing.js'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const Home = () => (
   <div className='body'>
@@ -323,42 +324,8 @@ const Home = () => (
           // </section>
           //
           //
-          // <footer id="section-footer">
-          //   {{#with footer}}
-          //   <header>
-          //     <h2 data-title="Taller">Taller</h2>
-          //   </header>
-          //   <main>
-          //     <h3>{{{contact.title}}}</h3>
-          //     <p>
-          //     </p>
-          //     <p>
-          //         contato@taller.net.br
-          //     </p>
-          //     <ul>
-          //       <li><a href="http://blog.taller.net.br/">Blog</a></li>
-          //       <li><a href="http://twitter.com/tallerws" target="_blank">Twitter</a></li>
-          //       <li><a href="http://facebook.com/tallerwebsolutions" target="_blank">Facebook</a></li>
-          //       <li><a href="http://instagram.com/instadataller" target="_blank">Instagram</a></li>
-          //       <li><a href="http://linkedin.com/company/taller-solu-es-web-inteligentes" target="_blank">Linkedin</a></li>
-          //     </ul>
-          //     <ul>
-          //       <li><a href="http://taller.net.br">Português</a></li>
-          //       <li><a href="http://taller.net.br/en">English</a></li>
-          //       <li><a href="http://taller.net.br/es">Español</a></li>
-          //     </ul>
-          //   </main>
-          //   <aside>
-          //     <h3>{{{extras.title}}}</h3>
-          //     <p>
-          //       {{{extras.description}}}
-          //       <br>
-          //       <a href="http://blog.taller.net.br/serie-lean-ui-redesign-taller-case">{{{extras.read-more}}}</a>
-          //     </p>
-          //   </aside>
-          //   {{/with}}
-          // </footer>
     }
+    <Footer />
   </div>
 )
 
