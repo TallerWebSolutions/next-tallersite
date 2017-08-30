@@ -8,7 +8,9 @@
     "watch": "next"
   },
   "dependencies": {
+    "deep-map": "^1.5.0",
     "eslint-config-taller": "^1.0.4",
+    "html-react-parser": "^0.3.5",
     "next": "^3.0.3",
     "ramda": "^0.24.1",
     "react": "^15.6.1",
