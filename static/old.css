@@ -713,7 +713,8 @@ a[href^="tel:"] {
   list-style: none;
   padding: 0; }
   #section-cases > main > article > main ul li, #section-studio > aside ul li {
-    display: inline-block; }
+    display: inline-block;
+    margin-right: 0.2em; }
     #section-cases > main > article > main ul li a, #section-studio > aside ul li a {
       display: inline-block; }
 

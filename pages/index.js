@@ -9,6 +9,7 @@ import Services from '../components/Services'
 import AboutUs from '../components/AboutUs'
 import Footer from '../components/Footer'
 import Newsletter from '../components/Newsletter'
+import Studio from '../components/Studio'
 
 
 const Home = ({ i18n }) => (
@@ -300,6 +301,7 @@ const Home = ({ i18n }) => (
           //
           //
     }
+    <Studio />
     <Services />
     <AboutUs />
     <Newsletter />
