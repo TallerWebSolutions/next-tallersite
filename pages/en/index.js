@@ -1,3 +1,1 @@
-import page from '../index.js'
-
-export default page
+export { default } from '../index.js'
